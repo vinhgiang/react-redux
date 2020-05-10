@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon --watch server --exec babel-node -- server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,13 +18,6 @@
   },
   "homepage": "https://github.com/vinhgiang/react-redux#readme",
   "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.6",
-    "@babel/node": "^7.8.7",
-    "@babel/preset-env": "^7.9.6",
-    "nodemon": "^2.0.3"
+    "redux": "^4.0.5"
   }
 }
